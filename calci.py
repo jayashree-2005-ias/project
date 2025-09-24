@@ -20,4 +20,8 @@ if sel==1:
 elif sel==2:
     print(a "-" b "=",sub(a,b))
 elif sel==3:
-    print(
+   print(a "*" b "=",mul(a,b))
+elif sel==4:
+   print(a "/" b  "=",div(a,b))
+else:
+   print("invalid input")
